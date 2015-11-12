@@ -25,6 +25,50 @@ xchange.bitfinex.ticker(function(err, res){
 ```
   
   
+## Documentation
+
+|                | bitfinex  |bitstamp   |okcoin   |btce     |btc38   |bter   |hitbtc | ccex  |kraken |
+|----------------|:---------:|:---------:|:-------:|:-------:|:------:|:-----:|:-----:|:-----:|:-----:|
+| ticker         |           |x          |x        |x        |x       |x      |       |       |       |
+| trades         |           |x          |x        |x        |x       |x      |       |       |       |
+| symbols        |           |x          |x        |x        |x       |x      |       |       |       |
+| orderBook      |           |x          |x        |x        |x       |x      |       |       |       |
+  
+
+## Documentation
+
+* [`ticker`](#ticker)
+* [`trades`](#trades)
+* [`symbols`](#symbols)
+* [`orderBook`](#orderBook)
+
+<a name="ticker" />
+### ticker(callback)
+
+Retrieves latest spot price.  
+
+```js
+xchange[<exchange_name>].ticker(function(error, resp) {
+    //response format { price: xxx }
+});
+```
+
+---------------------------------------
+  
+<a name="trades" />
+### trades(callback)
+
+Listing of most recent trades for a given symbol.  
+
+```js
+xchange[<exchange_name>].trades(function(error, resp) {
+    //response format { price: xxx }
+});
+```
+
+---------------------------------------  
+  
+  
 ## Contributors
 
 
