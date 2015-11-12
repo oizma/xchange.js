@@ -41,6 +41,11 @@ xchange.bitfinex.ticker(function(err, res){
 * [`trades`](#trades)
 * [`symbols`](#symbols)
 * [`orderBook`](#orderBook)
+    
+All Functions accept a callback argument as the last argument  
+
+* `callback(err, results)` - Called when the process completes, or an error occurs. 
+
 
 <a name="ticker" />
 ### ticker(callback)
@@ -56,12 +61,12 @@ xchange[<exchange_name>].ticker(function(error, resp) {
 ---------------------------------------
   
 <a name="trades" />
-### trades(callback)
+### trades(currency, callback)
 
 Listing of most recent trades for a given symbol.  
 
 ```js
-xchange[<exchange_name>].trades(function(error, resp) {
+xchange[<exchange_name>].trades('USD', function(error, resp) {
     //response format { price: xxx }
 });
 ```
