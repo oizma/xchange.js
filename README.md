@@ -27,12 +27,12 @@ xchange.bitfinex.ticker(function(err, res){
   
 ## Documentation
 
-|                | bitfinex  |bitstamp   |okcoin   |btce     |btc38   |bter   |hitbtc | ccex  |kraken |
-|----------------|:---------:|:---------:|:-------:|:-------:|:------:|:-----:|:-----:|:-----:|:-----:|
-| ticker         |           |x          |x        |x        |x       |x      |       |       |       |
-| trades         |           |x          |x        |x        |x       |x      |       |       |       |
-| symbols        |           |x          |x        |x        |x       |x      |       |       |       |
-| orderBook      |           |x          |x        |x        |x       |x      |       |       |       |
+|                | bitfinex  |bitstamp   |okcoin   |btce     |btc38   |bter   |hitbtc | ccex  |kraken |btc china|
+|----------------|:---------:|:---------:|:-------:|:-------:|:------:|:-----:|:-----:|:-----:|:-----:|:-------:|
+| ticker         |           |x          |x        |x        |x       |x      |       |       |       |         |
+| trades         |           |x          |x        |x        |x       |x      |       |       |       |         |
+| symbols        |           |x          |x        |x        |x       |x      |       |       |       |         |
+| orderBook      |           |x          |x        |x        |x       |x      |       |       |       |         |
   
 
 ## Documentation
