@@ -24,10 +24,11 @@
   "dependencies": {
     "blueagent": "^1.0.0",
     "bluebird": "^3.0.5",
+    "lodash": "^3.10.1",
     "superagent": "^0.21.0"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
+    "chai": "^3.4.1",
     "gulp": "^3.9.0",
     "gulp-istanbul": "^0.10.2",
     "gulp-jshint": "^1.12.0",
