@@ -22,6 +22,8 @@
     }
   ],
   "dependencies": {
+    "blueagent": "^1.0.0",
+    "bluebird": "^3.0.5",
     "superagent": "^0.21.0"
   },
   "devDependencies": {
